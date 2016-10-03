@@ -1,0 +1,16 @@
+﻿{
+  "authors": [
+    "Dmitry Sikorsky"
+  ],
+  "dependencies": {
+    "AspNetCoreStorage.Data.Abstractions": "1.0.0",
+    "Microsoft.EntityFrameworkCore.Sqlite": "1.0.1",
+    "NETStandard.Library": "1.6.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+  "version": "1.0.0-*"
+}
