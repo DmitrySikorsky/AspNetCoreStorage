@@ -9,7 +9,7 @@ namespace AspNetCoreStorage.Data.Sqlite
 {
   public class StorageContext : DbContext, IStorageContext
   {
-    private string connectionString { get; set; }
+    private string connectionString;
 
     public StorageContext(string connectionString)
     {

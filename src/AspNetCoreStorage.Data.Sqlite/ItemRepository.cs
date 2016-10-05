@@ -11,8 +11,8 @@ namespace AspNetCoreStorage.Data.Sqlite
 {
   public class ItemRepository : IItemRepository
   {
-    protected StorageContext storageContext;
-    protected DbSet<Item> dbSet;
+    private StorageContext storageContext;
+    private DbSet<Item> dbSet;
 
     public void SetStorageContext(IStorageContext storageContext)
     {
